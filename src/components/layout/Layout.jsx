@@ -11,7 +11,7 @@ const Layout = ({ title, pagename, children }) => {
         <Wrap>
             <Header />
             <main id="main">
-                <Box p="0 0 35px 10px" bg={'primary'}>
+                <Box p="0 0 35px 10px" >
                     <History pagename={pagename} />
                     <Title title={title} />
                 </Box>

@@ -2,6 +2,9 @@ import React from "react";
 import { Grid, GridItem } from "@chakra-ui/react";
 import Layout from "../components/layout/Layout";
 import Development from "../components/tables/Development";
+import CheckBox from "../components/tables/CheckBox";
+import ColumnTable from "../components/tables/ColumnTable";
+import ComplexTable from "../components/tables/ComplexTable";
 
 const Tables = () => {
   return (
@@ -12,14 +15,18 @@ const Tables = () => {
         templateColumns="repeat(2, 1fr)"
         gap={4}
       >
-        <GridItem colSpan={1} bg="yellow">
+        <GridItem colSpan={1} bg="transparent">
           <Development />
         </GridItem>
-        <GridItem bg="papayawhip">
-          <Development />
+        <GridItem bg="transparent">
+          <CheckBox />
         </GridItem>
-        <GridItem bg="blue" />
-        <GridItem bg="tomato" />
+        <GridItem bg="transparent">
+          <ColumnTable />
+        </GridItem>
+        <GridItem bg="transparent">
+          <ComplexTable />
+        </GridItem>
       </Grid>
     </Layout>
   );
