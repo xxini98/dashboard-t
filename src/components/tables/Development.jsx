@@ -13,6 +13,10 @@ import {
     TableContainer,
     Image,
     HStack,
+    Progress,
+    Text,
+    Flex,
+    Box,
 } from '@chakra-ui/react';
 import apple from '../../assets/images/tables/apple.svg';
 import android from '../../assets/images/tables/android.svg';
@@ -36,7 +40,7 @@ const data = [
             },
         ],
         number: 25.4,
-        percentage: 75.5,
+        percentage: 100,
     },
     {
         title: 'Marketplace2',
@@ -257,8 +261,18 @@ const Development = () => {
                                             ))}
                                         </HStack>
                                     </Td>
-                                    <Td>{item.number}</Td>
-                                    <Td>{item.percentage}%</Td>
+                                    <Td isNumeric>{item.number}</Td>
+                                    <Td>
+                                        <Flex alignItems={'center'}>
+                                            <Box w="32px" textAlign={'right'}>
+                                                {item.percentage}
+                                            </Box>
+                                            <Text variant="txt134" color="#777">
+                                                %
+                                            </Text>
+                                            <Progress w="63px" ml="10px" value={item.percentage} />
+                                        </Flex>
+                                    </Td>
                                 </Tr>
                             ))}
                         </Tbody>

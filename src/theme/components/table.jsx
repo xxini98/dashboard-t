@@ -65,6 +65,7 @@ const variantSimple = definePartsStyle((props) => {
         td: {
             p: '10px',
             borderBottom: 'none',
+            fontSize: '14px',
             // borderColor: mode(`${c}.100`, `${c}.700`)(props),
             ...numericStyles,
         },
