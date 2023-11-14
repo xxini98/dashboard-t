@@ -46,12 +46,7 @@ ${reset}
 
         --link-default: #F4F7FE;
     }
-    body {
-         background: url(3.jpg) no-repeat 0 0 !important;
-         #root {
-             opacity: 0.8 !important;
-         }
-    }
+
     *{
         box-sizing: border-box;
         margin: 0;
