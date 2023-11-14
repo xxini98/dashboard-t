@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.27a5f904.js",
-    "static/js/787.545aecf5.chunk.js": "/static/js/787.545aecf5.chunk.js",
-    "static/media/android.svg": "/static/media/android.4cf2d04ecf4c2a3d2e84aa7d03493f53.svg",
-    "index.html": "/index.html",
-    "static/media/apple.svg": "/static/media/apple.e32afc03669f2e1d7e1b97c8b344ff6d.svg",
-    "static/media/cancel.svg": "/static/media/cancel.e5f886d678e0a44c3afba3465f5e39ce.svg",
-    "static/media/windows.svg": "/static/media/windows.ce2e79e89dff91fb6eae286e570d64a0.svg",
-    "static/media/check_circle.svg": "/static/media/check_circle.5fc2c7f72c18c0b7b0d590ce2675bead.svg",
-    "static/media/error.svg": "/static/media/error.d1f0dcfdfe99e41c2636231c47853ebc.svg",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.27a5f904.js.map": "/static/js/main.27a5f904.js.map",
-    "787.545aecf5.chunk.js.map": "/static/js/787.545aecf5.chunk.js.map"
+    "main.css": "/dashboard-t/static/css/main.e6c13ad2.css",
+    "main.js": "/dashboard-t/static/js/main.a8e988ab.js",
+    "static/js/787.545aecf5.chunk.js": "/dashboard-t/static/js/787.545aecf5.chunk.js",
+    "static/media/android.svg": "/dashboard-t/static/media/android.4cf2d04ecf4c2a3d2e84aa7d03493f53.svg",
+    "index.html": "/dashboard-t/index.html",
+    "static/media/apple.svg": "/dashboard-t/static/media/apple.e32afc03669f2e1d7e1b97c8b344ff6d.svg",
+    "static/media/cancel.svg": "/dashboard-t/static/media/cancel.ba24f3774b7d7f5c3bb00975a1bdc1cf.svg",
+    "static/media/check_circle.svg": "/dashboard-t/static/media/check_circle.55d31a41050d0ec15a9ebb2967b4b243.svg",
+    "static/media/windows.svg": "/dashboard-t/static/media/windows.ce2e79e89dff91fb6eae286e570d64a0.svg",
+    "static/media/error.svg": "/dashboard-t/static/media/error.cc09057f9a083161b1e8087c594cc573.svg",
+    "main.e6c13ad2.css.map": "/dashboard-t/static/css/main.e6c13ad2.css.map",
+    "main.a8e988ab.js.map": "/dashboard-t/static/js/main.a8e988ab.js.map",
+    "787.545aecf5.chunk.js.map": "/dashboard-t/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.27a5f904.js"
+    "static/js/main.a8e988ab.js"
   ]
 }
