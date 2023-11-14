@@ -15,7 +15,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <CSSReset />
       <GlobalStyles />
-      <HashRouter basename="process.env.PUBLIC_URL">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/marketplace" element={<MarketPlace />} />
