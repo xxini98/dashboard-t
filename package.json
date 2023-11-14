@@ -1,5 +1,6 @@
 {
   "homepage": "https://xxini.me/dashboard-t",
+  "name": "dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

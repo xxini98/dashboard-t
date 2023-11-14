@@ -13,17 +13,18 @@ import SignIn from "./pages/SignIn";
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <HashRouter />
       <CSSReset />
       <GlobalStyles />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/marketplace" element={<MarketPlace />} />
-        <Route path="/tables" element={<Tables />} />
-        <Route path="/kanban" element={<Kanban />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/signin" element={<SignIn />} />
-      </Routes>
+      <HashRouter basename="process.env.PUBLIC_URL">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/marketplace" element={<MarketPlace />} />
+          <Route path="/tables" element={<Tables />} />
+          <Route path="/kanban" element={<Kanban />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/signin" element={<SignIn />} />
+        </Routes>
+      </HashRouter>
     </ChakraProvider>
   );
 }
